@@ -42,47 +42,47 @@
 
 # 
 
-# \*\*Prompt:\*\*
+## \*\*Prompt:\*\*
 
+## 
 
+## Tenho arroz, frango, cebola e creme de leite. Crie uma refeição.
 
-Tenho arroz, frango, cebola e creme de leite. Crie uma refeição.
+## 
 
+## \*\*Resposta gerada pela IA:\*\*
 
+## \- Nome da receita  
 
-\*\*Resposta gerada pela IA:\*\*
+## \- Lista de ingredientes  
 
-\- Nome da receita  
+## \- Modo de preparo passo a passo  
 
-\- Lista de ingredientes  
+## 
 
-\- Modo de preparo passo a passo  
+## \## 🎯 Objetivo do projeto
 
+## 
 
+## Explorar como a IA pode:
 
-\## 🎯 Objetivo do projeto
+## \- Compreender contexto a partir de um prompt
 
+## \- Criar receitas coerentes
 
+## \- Ajudar em tarefas práticas do dia a dia
 
-Explorar como a IA pode:
+## 
 
-\- Compreender contexto a partir de um prompt
+## \## 📄 Tecnologias utilizadas
 
-\- Criar receitas coerentes
+## 
 
-\- Ajudar em tarefas práticas do dia a dia
+## \- Modelo de IA generativa (ex: Gemini, ChatGPT, etc.)
 
+## \- Linguagem utilizada no projeto (ex: Python, Javascript, etc.)
 
+## 
 
-\## 📄 Tecnologias utilizadas
-
-
-
-\- Modelo de IA generativa (ex: Gemini, ChatGPT, etc.)
-
-\- Linguagem utilizada no projeto (ex: Python, Javascript, etc.)
-
-
-
----
+## ---
 
