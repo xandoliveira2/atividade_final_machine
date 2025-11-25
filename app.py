@@ -23,4 +23,4 @@ if st.button("Gerar Resposta"):
         with st.spinner("Gerando sua receita..."):
             response = model.generate_content(f"Como chefe 5 estrelas de um mega restaurante famoso , me cite 3 receitas boas para fazer com os meus ingredientes na geladeira : {user_input}, e além dos ingredientes que usarei, proporcionalize indicando quantas gramas / ml de cada ingrediente vai usar, e o modo de preparo")
             st.subheader("Resultado:")
-            st.write(response.text)
+            st.write("1111"+response.text)
