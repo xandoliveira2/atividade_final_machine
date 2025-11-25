@@ -1,8 +1,23 @@
 import streamlit as st
-st.title("Meu App de IA")
-user_input = st.text_input("Digite seu prompt")
-if st.button("Gerar Resposta"):
-    # response = funcao_gemini(user_input)
+import google.generativeai as genai
 
-    # st.write(response)
-    pass
+# Configurar API
+genai.configure(api_key="SUA_API_KEY")
+
+# Criar modelo
+model = genai.GenerativeModel("models/gemini-2.5-flash")
+
+# UI do Streamlit
+st.title("🍽️ Gerador de Receitas com IA")
+st.write("Digite os ingredientes e receba uma receita completa!")
+
+user_input = st.text_input("Digite seu prompt (ingredientes)")
+
+if st.button("Gerar Resposta"):
+    if not user_input.strip():
+        st.warning("Por favor, digite pelo menos um ingrediente.")
+    else:
+        with st.spinner("Gerando sua receita..."):
+            response = model.generate_content(user_input)
+            st.subheader("Resultado:")
+            st.write(response.text)
