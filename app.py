@@ -21,6 +21,6 @@ if st.button("Gerar Resposta"):
         st.warning("Por favor, digite pelo menos um ingrediente.")
     else:
         with st.spinner("Gerando sua receita..."):
-            response = model.generate_content(f"Como chefe 5 estrelas de um mega restaurante famoso , me cite 3 receitas boas para fazer com os meus ingredientes na geladeira : {user_input}, e além dos ingredientes que usarei, proporcionalize indicando quantas gramas / ml de cada ingrediente vai usar, e o modo de preparo")
+            response = model.generate_content(f"Como chefe 5 estrelas de um mega restaurante famoso , me cite 3 receitas boas para fazer com os meus ingredientes na geladeira : {user_input}, e além dos ingredientes que usarei, proporcionalize indicando quantas gramas / ml de cada ingrediente vai usar, e o modo de preparo, EXEMPLO : ingredientes = [farinha, leite, ovo, frango, queijo] -> coxinha de frango recheada com queijo \n 300g de farinha, 2 ovos, 200ml de leite, 2 fatias de queijo , 300g de frango \n Modo de preparo -> bata a farinha, ovo , leite e sove a massa até ficar numa consistência boa ...")
             st.subheader("Resultado:")
-            st.write("1111"+response.text)
+            st.write(response.text)
