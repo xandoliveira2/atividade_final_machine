@@ -60,28 +60,6 @@
 
 ## 
 
-## \## 🎯 Objetivo do projeto
-
-## 
-
-## Explorar como a IA pode:
-
-## \- Compreender contexto a partir de um prompt
-
-## \- Criar receitas coerentes
-
-## \- Ajudar em tarefas práticas do dia a dia
-
-## 
-
-## \## 📄 Tecnologias utilizadas
-
-## 
-
-## \- Modelo de IA generativa (ex: Gemini, ChatGPT, etc.)
-
-## \- Linguagem utilizada no projeto (ex: Python, Javascript, etc.)
-
 ## 
 
 ## ---
